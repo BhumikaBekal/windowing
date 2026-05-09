@@ -1,10 +1,28 @@
 .App {
   text-align: center;
+ width: 350px;
+  height: 500px;
+  margin: 20px auto;
+  border: 2px solid gray;
+  background-color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.list {
+  padding: 12px;
+  background-color: teal;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
